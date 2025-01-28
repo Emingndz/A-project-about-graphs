@@ -1,7 +1,7 @@
-Burası güncellemelerden etkilenmemek için kullanılacaktır.
+Hi Everyone,
 
-Şimdi bi şeyler denemeden önceki son checkout gibi düşün değiştirdikçe commit edicem
+This project is a work of graph in python.
 
-Son adımda : on_click_stop fonksiyonundan, tek tek kenarları remove() etme adımları çıkarıldı.
-Fonksiyon, grafiği tamamen ax.clear() ile temizleyip sonra ilk haline yeniden çizer hale getirildi.
-drawn_edges.clear() çağrısı, ek path çizimleri vb. referansları da sıfırlamak için korundu.
+Last step : Removed steps to remove individual edges from the on_click_stop function.
+The Function, The graphic was completely cleared with ax.clear() and then redrawn to its original state.
+Calling drawn_edges.clear(), additional path drawings, etc. preserved to reset references as well.
